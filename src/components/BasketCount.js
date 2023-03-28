@@ -16,7 +16,7 @@ const BasketCount= ({ basketCount, ... props }) => {
         document.title= basketCountLabel;
     });
     return (
-        <span>
+        <span className="basketCount">
             {basketCount} item{basketCount !== 1? "s" : " "}
         </span>
     )

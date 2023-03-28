@@ -120,8 +120,14 @@ body {
     margin-bottom: 5px;
     padding: 1px 10px;
   } 
+  .basketPage{
+    padding-left: 20%;
+  }
   
-
+  .basketCount{
+    padding-left: 20%;
+    font-weight: 600; 
+ }
 .btn {
   display: inline-block;
   border-radius: 80px;

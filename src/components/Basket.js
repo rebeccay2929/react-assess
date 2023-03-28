@@ -5,7 +5,7 @@ import Product from "./Product";
 const Basket =({basket, ...props}) => {
     const {removeFromBasket} = props;
     return (
-        <div>
+        <div className="basketPage"> 
             {!basket || basket.length === 0 ?(
                 <div className="empty-basket"> Sorry, no items in basket.. </div>
             ) :(
